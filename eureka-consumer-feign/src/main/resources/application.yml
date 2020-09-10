@@ -1,9 +1,9 @@
+server:
+  port: 3002
+
 spring:
   application:
-    name: eureka-client
-
-server:
-  port: 2001
+    name: eureka-consumer-feing
 
 eureka:
   client:
