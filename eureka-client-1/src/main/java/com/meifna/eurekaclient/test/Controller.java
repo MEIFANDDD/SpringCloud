@@ -17,7 +17,7 @@ public class Controller {
 
     @GetMapping("dc")
     public String dc() throws InterruptedException {
-        Thread.sleep(5000L);
+//        Thread.sleep(5000L);
         String services = "client-1";
         return services;
     }

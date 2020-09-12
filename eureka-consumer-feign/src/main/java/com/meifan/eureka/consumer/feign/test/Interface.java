@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @DATA 2020/9/10 10:25
  * @Contact 530051607@qq.com
  **/
-@FeignClient("eureka-client")
+@FeignClient(value = "eureka-client")
 public interface Interface {
     @GetMapping("dc")
     String consumer();
